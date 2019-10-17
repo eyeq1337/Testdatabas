@@ -2,7 +2,7 @@
 module.exports = ({ response, store, repeat, }) => ({
   path: 'order.rows',
   method: 'post',
-  body: store.mockUsers,
+  body: response.mockUsers,
   test() {
     // store the inserted id in mockUsers
     store.mockUsers.id = store.insertId;
