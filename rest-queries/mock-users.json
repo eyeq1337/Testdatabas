@@ -28,5 +28,11 @@
     "lastName": "Fabbri",
     "email": "nfabbri4@noaa.gov",
     "password": "y9Sjfx"
-  }
+  },
+  {
+    "email": "king@gmail.se",
+    "password": "abc123",
+    "firstname": "Awesome",
+    "lastname": "King"
+}
 ]
