@@ -5,7 +5,7 @@ module.exports = ({ response, store, repeat, }) => ({
   body: response.mockUsers,
   test() {
     // store the inserted id in mockUsers
-    store.mockUsers.id = store.insertId;
+    response.mockUsers.id = store.insertId;
     // repeat this step/query as long as
     // there a more mockUsers to insert
     if(store.mockUsers){
