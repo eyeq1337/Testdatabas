@@ -1,0 +1,17 @@
+[
+  {
+    "name": "01-create-a-order",
+    "request": {
+      "uri": "http://localhost:3000/rest/order.rows",
+      "method": "post"
+    },
+    "response": {
+      "error": 404
+    },
+    "tests": [
+      "*store.mockUsers.id = store.insertId"
+    ],
+    "status": "failed",
+    "error": "TypeError: Cannot set property 'id' of undefined"
+  }
+]
