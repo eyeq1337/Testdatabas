@@ -1,6 +1,6 @@
 // Note: Using expect test syntax
 module.exports = ({ expect, response }) => ({
-    path: 'order_row',
+    path: 'order_rows',
     method: 'delete',
     test() {
       // Expect the deletion to go through without warnings

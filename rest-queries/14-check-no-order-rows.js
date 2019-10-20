@@ -7,10 +7,10 @@ module.exports = ({ assert, response, store }) => ({
     },
     setup() {
       // Store the mockorders in the db (setup for next step/query)
-      store.mockOrdersRows = require('./mock-order-rows.json');
+      store.mockOrderRows = require('./mock-order-rows.json');
       for(let i=0; i<store.mockOrderRows.length; i++){
-          store.mockOrderRows[i].productid=store.mockProducts[i].produtid;
+          store.mockOrderRows[i].productid=store.mockProducts[i].productid;
       }
-      console.log("mock-order-rows.json", store.mockOrderRows)
+      console.log("mockOrderRows", store.mockOrderRows)
     }
   });
