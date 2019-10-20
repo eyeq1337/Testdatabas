@@ -23,7 +23,7 @@ module.exports = ({ response, store, repeat, i }) => ({
             repeat();
           }
         }
-      });d;
+      });
     // repeat this step/query as long as
     // there a more mockUsers to insert
     if(store.mockOrders[i + 1]){
