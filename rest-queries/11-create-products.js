@@ -2,15 +2,15 @@
 module.exports = ({ response, store, repeat, i }) => ({
     path: 'products',
     method: 'post',
-    body: store.mockOrders[i],
+    body: store.Products[i],
     test() {
       // check that a row was inserted in the db
       response.affectedRows.should.equal(1);
       // store the inserted id in mockUsers
-      store.mockOrders[i].id = response.insertId;
+      store.mockProducts[i].productid = response.insertId;
       // repeat this step/query as long as
       // there a more mockUsers to insert
-      if(store.mockOrders[i + 1]){
+      if(store.mockProducts[i + 1]){
         repeat();
       }
     }

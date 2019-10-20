@@ -5,9 +5,9 @@ module.exports = ({ assert, response, store }) => ({
     test() {
       // check that we got the right number of users
       // (intentionelly spelled length wrong to provoke a fail)
-      assert.equal(response.length, store.mockOrders.length);
+      assert.equal(response.length, store.mockProducts.length);
       // check that all users where
       // inserted correctly with correct data
-      assert.deepEqual(response, store.mockOrders);
+      assert.deepEqual(response, store.mockProducts);
     }
   });
