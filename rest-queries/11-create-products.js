@@ -2,7 +2,7 @@
 module.exports = ({ response, store, repeat, i }) => ({
     path: 'products',
     method: 'post',
-    body: store.Products[i],
+    body: store.mockProducts[i],
     test() {
       // check that a row was inserted in the db
       response.affectedRows.should.equal(1);
