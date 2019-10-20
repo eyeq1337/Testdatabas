@@ -11,6 +11,6 @@ module.exports = ({ assert, response, store }) => ({
       for(let i=0; i<store.mockOrder-rows.length; i++){
           store.mockOrderRows[i].productid=store.mockProducts[i].produtid;
       }
-      console.log("mockOrder-rows", store.mockOrder-rows)
+      console.log("mockOrder-rows", store.mockOrderRows)
     }
   });
