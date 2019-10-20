@@ -8,6 +8,6 @@ module.exports = ({ assert, response, store }) => ({
       assert.equal(response.length, store.mockOrderRows.length);
       // check that all users where
       // inserted correctly with correct data
-      assert.deepEqual(response, store.mockOrderRowsS);
+      assert.deepEqual(response, store.mockOrderRows);
     }
   });
