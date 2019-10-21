@@ -1,5 +1,5 @@
 // Note: Using expect test syntax
-module.exports = ({ expect, response }) => ({
+module.exports = ({ expect, response, }) => ({
     path: 'orderrows',
     method: 'delete',
     test() {

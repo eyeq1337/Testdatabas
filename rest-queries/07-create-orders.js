@@ -4,7 +4,7 @@ module.exports = ({ response, store, repeat, i }) => ({
     method: 'post',
     body: store.mockOrders[i],
     test() {
-      // check that a row was inserted in the db
+     // check that a row was inserted in the db
       response.affectedRows.should.equal(1);
       // store the inserted id in mockUsers
       store.mockOrders[i].orderid = response.insertId;
