@@ -1,5 +1,5 @@
 module.exports = ({ assert, response, store }) => ({
-    path: 'order_rows',
+    path: 'orderrows',
     method: 'get',
     test() {
      // Check that there are no orders in DB

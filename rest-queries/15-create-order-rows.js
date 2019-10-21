@@ -1,6 +1,6 @@
 // Note: Using should test syntax
 module.exports = ({ response, store, repeat, i }) => ({
-  path: 'order_rows',
+  path: 'orderrows',
   method: 'post',
   body: store.mockOnderRows[i],
   test() {
