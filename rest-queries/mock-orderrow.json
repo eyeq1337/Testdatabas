@@ -4,34 +4,34 @@
         "ok_to_share": 1,
         "text": "David är bäst",
         "image": "jag.jpg",
-        "materal": "bomull"
+        "material": "bomull"
     },
     {
         "quantity": 1,
         "ok_to_share": 1,
         "text": "Razer",
         "image": "razer.jpg",
-        "materal": "bomull"
+        "material": "bomull"
     },
     {
         "quantity": 1,
         "ok_to_share": 1,
         "text": "Nike",
         "image": "nike.loggo.jpg",
-        "materal": "bomull"
+        "material": "bomull"
     },
     {
         "quantity": 1,
         "ok_to_share": 1,
         "text": "adidas",
         "image": "adidas.loggo.jpg",
-        "materal": "bomull"
+        "material": "bomull"
     },
     {
         "quantity": 1,
         "ok_to_share": 1,
         "text": "puma",
         "image": "puma.loggo.jpg",
-        "materal": "bomull"
+        "material": "bomull"
     }
 ]
